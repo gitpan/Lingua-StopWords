@@ -9,7 +9,6 @@ BEGIN {
 
 my $wordlist = Lingua::StopWords::getStopWords('en');
 
-use Data::Denter;
 ok($wordlist->{me});
 ok(!$wordlist->{moi});
 
