@@ -1,0 +1,6 @@
+Revision history for Perl extension Lingua::StopWords.
+
+0.01  Sat Apr 10 19:31:27 2004
+	- original version; created by h2xs 1.23 with options
+		-X Lingua::StopWords
+
