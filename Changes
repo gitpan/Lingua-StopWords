@@ -1,5 +1,8 @@
 Revision history for Perl extension Lingua::StopWords
 
+0.05  2005-02-19
+    * Fix versioning problem with submodules
+
 0.04  2005-02-19
     * Minor mods to documentation
 

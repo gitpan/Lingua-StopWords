@@ -30,7 +30,7 @@ our @ISA = qw(Exporter);
 
 our %EXPORT_TAGS = ( 'all' => [ qw( getStopWords ) ] ); 
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
-our $VERSION = $Lingua::StopWords::VERSION;
+our $VERSION = #VERSION#;
 
 sub getStopWords {
     if ( @_ and $_[0] eq 'UTF-8' ) {
@@ -90,6 +90,7 @@ while ( my ( $iso, $lang ) = each %languages ) {
 
     # sub in the lists
     my $mod = $template;
+    $mod =~ s/#VERSION#/$Lingua::StopWords::VERSION/g;
     $mod =~ s/#ISO#/$iso/g;
     $mod =~ s/#PLAIN#/$plain/g;
     $mod =~ s/#UTF8#/$utf8/g;

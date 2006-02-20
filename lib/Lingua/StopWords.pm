@@ -6,7 +6,7 @@ require Exporter;
 our @ISA = qw(Exporter);
 our %EXPORT_TAGS = ( 'all' => [ qw( getStopWords ) ] );
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
-our $VERSION = '0.04';
+our $VERSION = 0.05;
 
 sub getStopWords {
     my ( $language, $encoding ) = @_;
