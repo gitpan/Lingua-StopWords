@@ -1,10 +1,11 @@
+use 5.006001;
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-    NAME              => 'Lingua::StopWords',
-    VERSION_FROM      => 'lib/Lingua/StopWords.pm',
-    PREREQ_PM         => {},
-    ($] >= 5.005 ?
-      (ABSTRACT_FROM  => 'lib/Lingua/StopWords.pm',
-       AUTHOR         => 'Fabien POTENCIER <fabpot@cpan.org>') : ()),
+    NAME          => 'Lingua::StopWords',
+    AUTHOR        => 'Marvin Humphrey <marvin at rectangular dot com>',
+    VERSION_FROM  => 'lib/Lingua/StopWords.pm',
+    ABSTRACT_FROM => 'lib/Lingua/StopWords.pm',
+    PREREQ_PM     => {},
+    clean         => { FILES => 'Lingua-StopWords-* MANIFEST.bak' },
 );
