@@ -1,9 +1,17 @@
-Revision history for Perl extension Lingua::StopWords.
+Revision history for Perl extension Lingua::StopWords
+
+0.04  2005-02-19
+    * Minor mods to documentation
+
+0.03  2005-02-19
+    * New maintainer Marvin Humphrey
+    * Add UTF-8 option
+    * Add Russian
 
 0.02  2004-04-18
-	- fix the test file (no need to use Data::Denter)
+    * fix the test file (no need to use Data::Denter)
 
 0.01  Sat Apr 10 19:31:27 2004
-	- original version; created by h2xs 1.23 with options
-		-X Lingua::StopWords
+    * original version; created by h2xs 1.23 with options
+        -X Lingua::StopWords
 

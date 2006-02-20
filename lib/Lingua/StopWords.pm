@@ -6,7 +6,7 @@ require Exporter;
 our @ISA = qw(Exporter);
 our %EXPORT_TAGS = ( 'all' => [ qw( getStopWords ) ] );
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 sub getStopWords {
     my ( $language, $encoding ) = @_;
@@ -83,7 +83,8 @@ stopwords and the values are all 1.
     };
 
 getStopWords() expects 1-2 arguments.  The first, which is required, is an ISO
-code representing a supported language.  
+code representing a supported language.  If the ISO code cannot be found,
+getStopWords returns undef.
 
 The second argument should be 'UTF-8' if you want the stopwords encoded in
 UTF-8.  The UTF-8 flag will be turned on, so make sure you understand all the

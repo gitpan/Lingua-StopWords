@@ -1,21 +1,7 @@
 Lingua-StopWords
 ================
 
-The stopword lists was taken from the http://snowball.tartarus.org/ website.
-
-The current supported languages are:
-- English
-- French 
-- Spanish 
-- Portuguese 
-- Italian 
-- German 
-- Dutch 
-- Swedish 
-- Norwegian 
-- Danish 
-- Russian 
-- Finnish 
+Stopword lists in several languages.
 
 INSTALLATION
 
@@ -26,11 +12,7 @@ To install this module type the following:
    make test
    make install
 
-COPYRIGHT AND LICENCE
-
-Put the correct copyright and licence information here.
-
-Copyright (C) 2004 by Fabien POTENCIER
+Copyright 2004-2006 Fabien Potencier and Marvin Humphrey 
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.3 or,
