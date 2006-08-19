@@ -6,7 +6,7 @@ require Exporter;
 our @ISA = qw(Exporter);
 our %EXPORT_TAGS = ( 'all' => [ qw( getStopWords ) ] );
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
-our $VERSION = 0.05;
+our $VERSION = 0.06;
 
 sub getStopWords {
     my ( $language, $encoding ) = @_;
@@ -56,6 +56,7 @@ several languages.
     | Danish     | da       | ISO-8859-1       | UTF-8          | 
     | Dutch      | nl       | ISO-8859-1       | UTF-8          | 
     | English    | en       | ISO-8859-1       | UTF-8          |
+    | Finnish    | fi       | ISO-8859-1       | UTF-8          |
     | French     | fr       | ISO-8859-1       | UTF-8          |
     | German     | de       | ISO-8859-1       | UTF-8          | 
     | Italian    | it       | ISO-8859-1       | UTF-8          | 

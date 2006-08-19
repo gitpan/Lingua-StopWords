@@ -12,10 +12,3 @@ To install this module type the following:
    make test
    make install
 
-Copyright 2004-2006 Fabien Potencier and Marvin Humphrey 
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.8.3 or,
-at your option, any later version of Perl 5 you may have available.
-
-

@@ -55,6 +55,7 @@ my %languages = (
     DA => "danish",
     NL => "dutch",
     EN => "english",
+    FI => "finnish",
     FR => "french",
     DE => "german",
     IT => "italian",
@@ -75,9 +76,10 @@ while ( my ( $iso, $lang ) = each %languages ) {
         or die "Couldn't open file '$file': $!";
     while (<SNOWBALL_STOPFILE>) {
         s/\|.*//g;
-        s/\s+//g;
         next unless length;
-        push @words, $_;
+        my @these_words = split;
+        s/\s*// for @these_words;
+        push @words, @these_words;
     }
 
     # translate to UTF-8 

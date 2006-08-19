@@ -1,12 +1,15 @@
 Revision history for Perl extension Lingua::StopWords
 
-0.05  2005-02-19
+0.06  2006-08-18
+    * Add Finnish stoplist.
+
+0.05  2006-02-19
     * Fix versioning problem with submodules
 
-0.04  2005-02-19
+0.04  2006-02-19
     * Minor mods to documentation
 
-0.03  2005-02-19
+0.03  2006-02-19
     * New maintainer Marvin Humphrey
     * Add UTF-8 option
     * Add Russian
