@@ -1,5 +1,8 @@
 Revision history for Perl extension Lingua::StopWords
 
+0.08  2006-09-19
+    * Fix version mismatch between main module and submodules.
+
 0.07  2006-09-19
     * Fix failing test: skip instead of fail if Test::Pod::Coverage can't
       be found.
