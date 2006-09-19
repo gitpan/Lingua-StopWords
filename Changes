@@ -1,5 +1,9 @@
 Revision history for Perl extension Lingua::StopWords
 
+0.07  2006-09-19
+    * Fix failing test: skip instead of fail if Test::Pod::Coverage can't
+      be found.
+
 0.06  2006-08-18
     * Add Finnish stoplist.
 
