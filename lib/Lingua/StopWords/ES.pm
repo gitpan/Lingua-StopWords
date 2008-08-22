@@ -21,7 +21,7 @@ sub getStopWords {
             mÃ­ antes algunos quÃ© unos yo otro otras otra Ã©l tanto esa
             estos mucho quienes nada muchos cual poco ella estar estas
             algunas algo nosotros mi mis tÃº te ti tu tus ellas nosotras
-            vosostros vosostras os mÃ­o mÃ­a mÃ­os mÃ­as tuyo tuya tuyos
+            vosotros vosotras os mÃ­o mÃ­a mÃ­os mÃ­as tuyo tuya tuyos
             tuyas suyo suya suyos suyas nuestro nuestra nuestros nuestras
             vuestro vuestra vuestros vuestras esos esas estoy estÃ¡s estÃ¡
             estamos estÃ¡is estÃ¡n estÃ© estÃ©s estemos estÃ©is estÃ©n
@@ -41,15 +41,14 @@ sub getStopWords {
             seÃ¡is sean serÃ© serÃ¡s serÃ¡ seremos serÃ©is serÃ¡n serÃ­a
             serÃ­as serÃ­amos serÃ­ais serÃ­an era eras Ã©ramos erais eran
             fui fuiste fue fuimos fuisteis fueron fuera fueras fuÃ©ramos
-            fuerais fueran fuese fueses fuÃ©semos fueseis fuesen sintiendo
-            sentido sentida sentidos sentidas siente sentid tengo tienes
-            tiene tenemos tenÃ©is tienen tenga tengas tengamos tengÃ¡is
-            tengan tendrÃ© tendrÃ¡s tendrÃ¡ tendremos tendrÃ©is tendrÃ¡n
-            tendrÃ­a tendrÃ­as tendrÃ­amos tendrÃ­ais tendrÃ­an tenÃ­a
-            tenÃ­as tenÃ­amos tenÃ­ais tenÃ­an tuve tuviste tuvo tuvimos
-            tuvisteis tuvieron tuviera tuvieras tuviÃ©ramos tuvierais
-            tuvieran tuviese tuvieses tuviÃ©semos tuvieseis tuviesen
-            teniendo tenido tenida tenidos tenidas tened 
+            fuerais fueran fuese fueses fuÃ©semos fueseis fuesen siendo
+            sido tengo tienes tiene tenemos tenÃ©is tienen tenga tengas
+            tengamos tengÃ¡is tengan tendrÃ© tendrÃ¡s tendrÃ¡ tendremos
+            tendrÃ©is tendrÃ¡n tendrÃ­a tendrÃ­as tendrÃ­amos tendrÃ­ais
+            tendrÃ­an tenÃ­a tenÃ­as tenÃ­amos tenÃ­ais tenÃ­an tuve
+            tuviste tuvo tuvimos tuvisteis tuvieron tuviera tuvieras
+            tuviÃ©ramos tuvierais tuvieran tuviese tuvieses tuviÃ©semos
+            tuvieseis tuviesen teniendo tenido tenida tenidos tenidas tened 
         );
         return \%stoplist;
     }
@@ -61,8 +60,8 @@ sub getStopWords {
             durante todos uno les ni contra otros ese eso ante ellos e esto
             mí antes algunos qué unos yo otro otras otra él tanto esa estos
             mucho quienes nada muchos cual poco ella estar estas algunas
-            algo nosotros mi mis tú te ti tu tus ellas nosotras vosostros
-            vosostras os mío mía míos mías tuyo tuya tuyos tuyas suyo suya
+            algo nosotros mi mis tú te ti tu tus ellas nosotras vosotros
+            vosotras os mío mía míos mías tuyo tuya tuyos tuyas suyo suya
             suyos suyas nuestro nuestra nuestros nuestras vuestro vuestra
             vuestros vuestras esos esas estoy estás está estamos estáis
             están esté estés estemos estéis estén estaré estarás estará
@@ -82,14 +81,13 @@ sub getStopWords {
             seremos seréis serán sería serías seríamos seríais serían era
             eras éramos erais eran fui fuiste fue fuimos fuisteis fueron
             fuera fueras fuéramos fuerais fueran fuese fueses fuésemos
-            fueseis fuesen sintiendo sentido sentida sentidos sentidas
-            siente sentid tengo tienes tiene tenemos tenéis tienen tenga
-            tengas tengamos tengáis tengan tendré tendrás tendrá tendremos
-            tendréis tendrán tendría tendrías tendríamos tendríais tendrían
-            tenía tenías teníamos teníais tenían tuve tuviste tuvo tuvimos
-            tuvisteis tuvieron tuviera tuvieras tuviéramos tuvierais
-            tuvieran tuviese tuvieses tuviésemos tuvieseis tuviesen
-            teniendo tenido tenida tenidos tenidas tened 
+            fueseis fuesen siendo sido tengo tienes tiene tenemos tenéis
+            tienen tenga tengas tengamos tengáis tengan tendré tendrás
+            tendrá tendremos tendréis tendrán tendría tendrías tendríamos
+            tendríais tendrían tenía tenías teníamos teníais tenían tuve
+            tuviste tuvo tuvimos tuvisteis tuvieron tuviera tuvieras
+            tuviéramos tuvierais tuvieran tuviese tuvieses tuviésemos
+            tuvieseis tuviesen teniendo tenido tenida tenidos tenidas tened 
         );
         return \%stoplist;
     }

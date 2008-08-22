@@ -6,7 +6,7 @@ require Exporter;
 our @ISA = qw(Exporter);
 our %EXPORT_TAGS = ( 'all' => [ qw( getStopWords ) ] );
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
-our $VERSION = 0.08;
+our $VERSION = 0.09;
 
 sub getStopWords {
     my ( $language, $encoding ) = @_;
@@ -28,7 +28,7 @@ __END__
 
 =head1 NAME
 
-Lingua::StopWords - Stop words for several languages
+Lingua::StopWords - Stop words for several languages.
 
 =head1 SYNOPSIS
 
@@ -59,6 +59,7 @@ several languages.
     | Finnish    | fi       | ISO-8859-1       | UTF-8          |
     | French     | fr       | ISO-8859-1       | UTF-8          |
     | German     | de       | ISO-8859-1       | UTF-8          | 
+    | Hungarian  | hu       | ISO-8859-1       | UTF-8          | 
     | Italian    | it       | ISO-8859-1       | UTF-8          | 
     | Norwegian  | no       | ISO-8859-1       | UTF-8          | 
     | Portuguese | pt       | ISO-8859-1       | UTF-8          | 
@@ -107,7 +108,7 @@ Original author Fabien Potencier, E<lt>fabpot at cpan dot orgE<gt>.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2004-2006 Fabien Potencier, Marvin Humphrey
+Copyright 2004-2008 Fabien Potencier, Marvin Humphrey
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.3 or,

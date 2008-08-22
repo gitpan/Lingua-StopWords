@@ -58,6 +58,7 @@ my %languages = (
     FI => "finnish",
     FR => "french",
     DE => "german",
+    HU => "hungarian",
     IT => "italian",
     NO => "norwegian",
     PT => "portuguese",

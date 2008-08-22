@@ -7,6 +7,7 @@ lib/Lingua/StopWords/EN.pm
 lib/Lingua/StopWords/ES.pm
 lib/Lingua/StopWords/FI.pm
 lib/Lingua/StopWords/FR.pm
+lib/Lingua/StopWords/HU.pm
 lib/Lingua/StopWords/IT.pm
 lib/Lingua/StopWords/NL.pm
 lib/Lingua/StopWords/NO.pm

@@ -1,5 +1,11 @@
 Revision history for Perl extension Lingua::StopWords
 
+0.09  2008-08-22
+    * Update Spanish stoplist to latest Snowball version.  This is a
+      backwards-incompatible change, but the old list was broken, containing
+      "vosostros" instead of "vosotros" and so on.
+    * Add Hungarian.
+
 0.08  2006-09-19
     * Fix version mismatch between main module and submodules.
 
